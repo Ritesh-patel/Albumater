@@ -1,0 +1,120 @@
+body 
+{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.album-container
+{
+	margin-left: 0px !important;
+}
+.container
+{
+	padding: 5px 0;
+}
+.header-right
+{
+	float: right;
+}
+.album-cover
+{
+	height: 100%;
+	width: 100%;
+}
+.album-cover-div
+{	
+	padding: 10px;
+	margin: 0 0 15px 0;	
+	vertical-align: center;
+	background-color: #EAEAEA;	
+	margin: 10px;
+}
+.album-cover-div:hover
+{
+	background-color: #E1E1E1;
+}
+.album-cover-img
+{
+	background-color: #FFF;
+	padding: 10px;
+	height: 190px;
+	vertical-align: center;	
+	cursor: pointer;
+}
+.download-link-div
+{
+	margin-top: 20px;
+}
+.album-name
+{
+	padding: 10px;	
+	margin-bottom: 5px !important;
+	font-size: 15px;
+	height: 12px;
+	overflow: hidden;
+}
+.album-name a
+{
+	cursor: pointer;
+}
+.loading-div
+{
+	display: none;	
+	background-color: #000;
+	opacity: 0.8;
+	position: fixed;
+	left: 0;
+	top: 0;	
+}
+.loading-img-contanier
+{
+	position: absolute;
+	display: block;
+}
+.loading-img-contanier p
+{
+	font-size: 16px;
+	color: #FFF;
+	margin-top: 10px;
+}
+#profile_div
+{
+	height: 313px;	
+	background-size:100%;
+	background-repeat:no-repeat;	
+	text-align: left;	
+	background-position:center; 
+}
+.logout
+{
+	margin-left: -5px !important;
+}
+.profile-pic
+{
+	border: 1px solid #FFF;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    margin-top: 3px;
+    float:left;
+}
+.user-name
+{	
+    text-align: left;
+    font-size: 17px;
+}
+.not-connected
+{
+	margin-top: 100px;
+}
+.not-connected p
+{
+	font-size: 15px;	
+}
+.span2-3
+{
+	width: 194px !important;
+}
+.loading-text
+{
+	text-align: center;
+}
