@@ -66,12 +66,12 @@
                             <!-- Album contaner -->
                             <div class="span3 span2-3 album-cover-div" align="center">    
                                 <div class="album-cover-img" align="center">
-                                    <img src='<?php echo $img_src;?>' class="album-cover" onclick="GetAlbumImages('<?php echo $album['id'];?>');" alt="albumimage" />
+                                    <img src='<?php echo $img_src;?>' class="album-cover" onclick="GetAlbumImages('<?php echo $album['id'];?>','<?php echo $album['count'];?>');" alt="albumimage" />
                                 </div>
                                 <p class="album-name">
-                                    <a onclick="GetAlbumImages('<?php echo $album['id'];?>');"><?php echo $album['name'];?></a>
+                                    <a onclick="GetAlbumImages('<?php echo $album['id'];?>','<?php echo $album['count'];?>');"><?php echo $album['name'];?></a>
                                 </p>
-                                <button id="btn_<?php echo $album['id'];?>" onclick="DownloadAlbum('<?php echo $album['id'];?>');" class="btn btn-primary"><i class="icon-download icon-white"></i> Download </button>
+                                <button id="btn_<?php echo $album['id'];?>" onclick="DownloadAlbum('<?php echo $album['id'];?>','<?php echo $album['count'];?>');" class="btn btn-primary"><i class="icon-download icon-white"></i> Download </button>
                             </div>   
                             <!-- End of Album contaner -->                                                  
                 <?php          
