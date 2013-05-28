@@ -9,7 +9,7 @@ You can have live demo <a href='http://riteshpatel.site11.com/assignments/albuma
 
 For UI: Twitter Bootstrap
 
-For jQuery Slider: <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a>
+For jQuery Slider: <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target='_blank'>prettyPhoto</a>
 
 API: Facebook PHP SDK (v.3.2.2)
 
