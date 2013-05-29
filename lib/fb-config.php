@@ -1,5 +1,5 @@
 <?php
-require $path_app.'src/facebook.php';   // include facebook.php file
+require $path_app.'lib/facebook-php-sdk/src/facebook.php';   // include facebook.php file
 $facebook = new Facebook(array(         // define an object of facebook class
     'appId'  => 'Your app ID',
     'secret' => 'Your app secret',

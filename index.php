@@ -1,6 +1,6 @@
 <?php
     $path_app="";   //defing path from app's root folder
-    include_once($path_app."includes/fb-config.php");   //include facebook configuration
+    include_once($path_app."lib/fb-config.php");   //include facebook configuration
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -14,7 +14,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">        
         <?php
-            include_once($path_app.'includes/include_files_css.php');   //include all the required css files
+            include_once($path_app.'include_files_css.php');   //include all the required css files
         ?>        
     </head>
     <body>
@@ -115,7 +115,7 @@
         </div> 
         <!-- /container -->      
          <?php
-            include_once($path_app.'includes/include_files_js.php');    //include all the required js files
+            include_once($path_app.'include_files_js.php');    //include all the required js files
         ?>
         <script type="text/javascript">
             $(document).ready(function()
