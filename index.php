@@ -1,6 +1,6 @@
 <?php
     $path_app="";   //defing path from app's root folder
-    include_once($path_app."lib/fb-config.php");   //include facebook configuration
+    require_once($path_app."lib/fb-config.php");   //include facebook configuration
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -43,7 +43,7 @@
         <div class="container">            
             <div align="center">                                
                 <?php
-                    if($user)
+                    if($user)       //$user defined in fb-config.php file
                     {
                 ?>
                         <script type="text/javascript">
